@@ -8,6 +8,7 @@ scanf("%f",celsius);
 kelvin = celsius + 273;
 fahrenheit = (1.8 * (kelvin -273) )+ 32;
 
-printf ("Seu valor em kelvin é %.1f, e seu valor em fahrenheit é %.1f", kelvin, fahrenheit);
+printf ("Seu valor em kelvin é %.2f\n", kelvin);
+printf ("seu valor em fahrenheit é %.2f\n", fahrenheit);
 
 return 0; }
